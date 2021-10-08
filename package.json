@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sebastianfox81/Node-App/issues"
   },
-  "homepage": "https://github.com/sebastianfox81/Node-App#readme"
+  "homepage": "https://github.com/sebastianfox81/Node-App#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
 }
