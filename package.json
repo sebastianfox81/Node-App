@@ -1,0 +1,19 @@
+{
+  "name": "node-app",
+  "version": "1.0.0",
+  "description": "nodejs-app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianfox81/Node-App.git"
+  },
+  "author": "Sebastian Acosta-Fox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianfox81/Node-App/issues"
+  },
+  "homepage": "https://github.com/sebastianfox81/Node-App#readme"
+}
