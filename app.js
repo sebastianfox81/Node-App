@@ -6,8 +6,6 @@ const app = express();
 const adminRoutes = require('./routes/admin');
 const shopRoutes = require('./routes/shop');
 
-
-
 app.use(bodyParser.urlencoded({extended: false}));
 
 app.use('/admin', adminRoutes);
@@ -19,6 +17,4 @@ app.use((req, res, next) => {
 
 app.listen(3000);
 
-
-var obj1 = { name: 'Alice'};
-var obj2 = { name: 'Alice'};
+console.log('listening for changes')
