@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path')
-const router = express.Router();
+const router = express.Router(); // express plug-in function to handle routing
 
 // admin/add-product => GET
 router.get('/add-product', (req, res, next) => {
